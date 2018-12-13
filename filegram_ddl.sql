@@ -1,0 +1,13 @@
+DROP   DATABASE IF EXISTS     FilegramDB;
+CREATE DATABASE IF NOT EXISTS FilegramDB;
+
+USE FilegramDB;
+
+CREATE TABLE UserAcct
+( User_ID       INTEGER UNSIGNED  NOT NULL    AUTO_INCREMENT  PRIMARY KEY,
+  Username      VARCHAR(50)       NOT NULL,
+  PASSWORD      VARCHAR(100)      NOT NULL,
+  Email			VARCHAR(150)      NOT NULL,
+  First_name    VARCHAR(100)      NOT NULL,
+  Last_name     VARCHAR(150)      NOT NULL
+);
