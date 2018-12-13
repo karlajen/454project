@@ -4,7 +4,7 @@
 
 <?php $email_error = $username_error = $pass_error = $empty_error =  $success = ""; ?>
 		<section class="main-content">
-			<div class="main">
+			<div class="register-form">
 				<form class = "register-form" action="register.action.php" method="post">
 					<br>
 					<input type="text" name="first" placeholder="First Name">
