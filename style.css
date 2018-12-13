@@ -309,6 +309,73 @@ li > a:only-child:after { content: ''; }
 
 }
 
+ .register-form
+{
+  position: absolute;
+  top:50%;
+  left: 650px;
+  -webkit-transform:translate(-50%, -50%);
+  -moz-transform:translate(-50%, -50%);
+  -ms-transform:translate(-50%, -50%);
+  -o-transform:translate(-50%, -50%);
+  transform:translate(-50%, -50%);
+    width: 100px;
+    height: 290px;
+    padding: 30px 50px;
+    background: rgba(0,0,0,0);
+}
+
+
+ .register-form a 
+{
+    float:center ;
+        font-size:15px;
+    display: block;
+    width: 60px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+
+ .register-form form 
+{
+  
+    padding-top: 10px;
+}
+
+ .register-form form input 
+{
+            border: none;
+            border-bottom: 1px solid black;
+            background: transparent;
+            outline: none;
+            height: 40px;
+            width: 320px;
+            color: grey;
+            font-size: 16px;
+            font-color: black;
+}
+
+ .register-form  button
+{
+            width: 320px;
+            height: 30px;
+            color: #fff;
+            font-size: 15px;
+            background: grey;
+            cursor: pointer;
+            border-radius: 60px;
+            border: none;
+            outline: none;
+            margin-top: 1%;
+}
+
+ .regiter-form button:hover
+{
+   background-color: #ccc;
+}
+
  .login-form
 {
 position: absolute;
